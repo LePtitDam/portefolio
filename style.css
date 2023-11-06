@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border{
+    border: solid 2px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ligne{
+    display: inline;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.texte-droit{
+    text-align: right;
+}
+
+.texte-gauche{
+    text-align: left;
+}
+
+.texte-centre{
+    text-align: center;
+}
+
+.bordure-bas{
+    border-bottom: solid 3px;
+}
+
+
+.imagemoi{
+    width: 10%;
+}
+
+.padingbas{
+    padding-bottom: 20px;
+}
+
+.margin-top20{
+    margin-top: 20px;
+}
+
+.margin-top50{
+    margin-top: 50px;
+}
+
+.margin-bas20{
+    margin-bottom: 20px;
+}
+
+.bgcomp{
+    background-color: brown;
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 8px 16px ;
+    margin-top: 20px;
+}
+
+.bgprojet1{
+    background-image: url("image/tokyo\ revenger.jpg");
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgprojet2{
+    background-image: url("image/palmier.webp");
+    width: 25%;
+    background-size: cover;
+}
+
+.bgprojet3{
+    background-image: url("image/drapeau\ france.png");
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taille100{
+    width: 100%;
+    height: 200px;
+}
+
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
