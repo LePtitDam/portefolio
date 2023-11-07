@@ -1,77 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>PorteFolio DL</title>
 </head>
+
 <body>
-    <header>
-        <div class="flex around bordure-bas">
-         <img src="image/logo.PNG" alt="logo">
-         <p class="texte-droit">Compétance</p>
-         <p class="texte-droit">Projet</p>
-         <p class="texte-droit">Contact</p>
+    <header class="center" id="top">
+        <div class="flex around">
+            <img class="logo" src="image/1699265514182.jpg" alt="logo">
+            <div class="flex between padingdroitegauche30 margin-top50 tailletext">
+                <p class="texte-droit"><a href="#competence">Compétances</a></p>
+                <p class="texte-droit padingdroitegauche100"><a href="#Projet">Projets</a></p>
+                <p class="texte-droit"><a href="#contact">Contact</a></p>
+            </div>
+            <div class="flex margin-top50 padingdroitegauche30 between picto">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a class="padinggauche15" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
         </div>
     </header>
-    <div class="flex around margin-top20 bordure-bas padingbas">
-        <img class="imagemoi" src="image/1699265514182.jpg" alt="">
-        
-        <div>
-            <h2 class="">Qui suis-je ?</h2>
-            <p class="margin-top50">
+
+    <div class="taille100 texte-centre">
+        <h2 class="">Qui suis-je ?</h2>
+    </div>
+    <div>
+
+        <p class="margintop100 texte-centre marginbas250 padingtop125">
             Je m'appelle Damien LAURENT j'ai 18 ans je suis web développer <br>
             je suis actuellement la formation de la Toile à l'EM-lyon à Saint-Etienne
-         </p>
+        </p>
+    </div>
+    </div>
+
+    <div class=" padingbas20" id="competence">
+        <h2 class="texte-centre margin-top20 marginbas250">Mes Compétences</h2>
+        <div class="flex texte-centre around padingbas20">
+            <img src="image/HTML.png" alt="">
+            <img src="image/CSS.png" alt="">
+            <img src="image/JS2.png" alt="">
+        </div>
+    </div>
+    <div class="margin-top20 padingbas20" id="Projet">
+        <h2 class="texte-centre">Mes Projets</h2>
+        <div class="flex around taille100 texte-centre margin-top20">
+            <img src="image/nasa.png" alt="">
+            <h3><a class="position textblanc" href="">Designer le suite <br> de la Naza</a></h3>
+            <div class="palm">
+                <img src="image/palmier.webp" alt="">
+            </div>
+            <h3 class="position2"><a class="textblanc" href="">Site de vacances <br>"je prends des vacnaces"</a></h3>
+            <img src="image/resto.jpg" alt="">
+            <h3 class="position3"> <a class="textblanc" href="">Restaurant "au resto"</a></h3>
+
         </div>
     </div>
 
-<div class="bordure-bas padingbas">
-        <h2 class="texte-centre margin-top20">Mes Compétence</h2>
-        <div class="flex texte-centre around">
-            <p class="bgcomp">HTML</p>
-            <p class="bgcomp">CSS</p>
-        </div>
-</div>
- <div class="margin-top20 bordure-bas padingbas">
-    <h2 class="texte-centre">Mes Projet</h2>
-    <div class="flex around taille100 texte-centre margin-top20">
-        <h3 class="bgprojet1">Projet 1</h3>
-        <h3 class="bgprojet2">Projet 2</h3>
-        <h3 class="bgprojet3">Projet 3</h3>
-
-    </div>
- </div>
-
- <div>
-    <h2 class="texte-centre margin-top20">Contact</h2>
-    <div class="flex around">
-       <div> <label for="email">NOM:</label>
-
-<input type="text" id="nom" size="30" required />
-</div>
-<div>
-<label for="email">Prénom:</label>
-
-<input type="text" id="Prénom" size="30" required />
-</div>
-    
     <div>
-        <label for="email">email:</label>
+        <div id="contact">
+            <h2 class="texte-centre margin-top20">Contact</h2>
+        </div>
+        <div class="flex around">
+            <div> <label for="email">NOM:</label>
 
-        <input type="email" id="email"size="30" required />
-        
+                <input type="text" id="nom" size="30" required />
+            </div>
+            <div>
+                <label for="email">Prénom:</label>
+
+                <input type="text" id="Prénom" size="30" required />
+            </div>
+
+            <div>
+                <label for="email">email:</label>
+
+                <input type="email" id="email" size="30" required />
+
+            </div>
+        </div>
+        <div class="texte-centre padingbas20">
+            <input class="favorite styled" type="button" value="Envoyer" />
+        </div>
     </div>
-</div>
-<div class="texte-centre bordure-bas padingbas">
-    <input class="favorite styled" type="button" value="Envoyer" />
-</div>
- </div>
 
- <footer>
-    
- </footer>
+    <div class="top div">
+        <a href="#top">Top</a>
+    </div>
+
+
+    <footer class="flex around textblanc bgdegradebleue">
+        <div>
+            Mensions Légales
+        </div>
+        <div>
+            Sources
+            <p>Google Image</p>
+            <p>Front Awsome</p>
+            <p>Freepik</p>
+
+        </div>
+    </footer>
 
 </body>
+
 </html>

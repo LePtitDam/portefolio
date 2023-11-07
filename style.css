@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;
+}
+
 .border{
     border: solid 2px;
 }
@@ -50,8 +55,12 @@
     width: 10%;
 }
 
-.padingbas{
+.padingbas20{
     padding-bottom: 20px;
+}
+
+.padingbas150{
+    padding-bottom: 150px;
 }
 
 .margin-top20{
@@ -62,20 +71,55 @@
     margin-top: 50px;
 }
 
+.margintop100{
+    margin-top: 100px;
+}
+.marginbas250{
+    margin-bottom: 200px;
+}
+
 .margin-bas20{
     margin-bottom: 20px;
 }
 
+.padingdroitegauche30{
+    padding: 0px 30px;
+}
+
+.padingdroitegauche100{
+    padding: 0px 100px;
+}
+
+.padinggauche15{
+    padding-left: 15px;
+}
+
+.padingtop125{
+    padding-top: 125px;
+}
+
+h3{
+    color: white;
+    padding-top: 40px;
+    opacity: 0;
+    transition: 3s;
+}
+
 .bgcomp{
-    background-color: brown;
+    background: linear-gradient(blue, #0098FF);
     border: solid 2px;
     border-radius: 8px;
     padding: 8px 16px ;
     margin-top: 20px;
 }
 
+.bgdegradebleue{
+    background: linear-gradient(blue, #0098FF);
+    padding: 20px;
+}
+
 .bgprojet1{
-    background-image: url("image/tokyo\ revenger.jpg");
+    background-image: url("image/nasa.png");
     width: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +132,7 @@
 }
 
 .bgprojet3{
-    background-image: url("image/drapeau\ france.png");
+    background-image: url("image/resto.jpg");
     width: 25%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,6 +158,7 @@ label {
   .styled {
     border: 0;
     line-height: 2.5;
+    margin-top: 60px;
     padding: 0 20px;
     font-size: 1rem;
     text-align: center;
@@ -141,3 +186,95 @@ label {
       inset -2px -2px 3px rgba(255, 255, 255, 0.6),
       inset 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
+
+  h2{
+    background-image: url(image/fond.jpg);
+    padding: 100px 80px;
+    color: white;
+    background: linear-gradient(blue, rgb(0, 153, 255));
+    font-size: 60px;
+      
+  }
+
+  .taille100{
+    width: 100%;
+  }
+
+  .picto{
+    width: 100px;
+  }
+
+  .logo{
+    width: 100px;
+    border-radius: 300px;
+}
+
+
+.textblanc{
+    color: white;
+}
+
+.tailletext{
+    font-size: 17px;
+}
+
+h3:hover{
+    opacity: 10;
+}
+
+.position{
+    position: relative;
+    right: 205px;
+}
+
+.position2{
+    position: relative;
+    right: 255px;
+}
+
+.position3{
+    position: relative;
+    left: 475px;
+    bottom: 200px;
+}
+
+.palm{
+    width: 300px;
+}
+
+.palm img{
+    width: 100%;
+}
+
+.posi{
+    position: absolute;
+}
+
+.textposi{
+    position: relative;
+    right: 400px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.center{
+    align-items: center;
+}
+
+.top{
+    border: 0;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(blue, rgb(0, 153, 255));
+    padding: 10px 10px;
+    margin: 40px 10px;
+    color: white;
+}
+
+.div{
+    width: 40px;
+    text-align: right;
+    color: white;
+}
